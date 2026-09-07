@@ -1,6 +1,6 @@
-# Ozone Hospitalito Atitlan
+# 🇬🇹 Ozone HA
 
-**Ozone Hospitalito Atitlan** is a distribution of [Ozone HIS](https://www.ozone-his.com).
+**Ozone HA** is a distribution of [Ozone HIS](https://www.ozone-his.com) for the Hospitalito Atitlán, Guatemala.
 
 Available commands to build and run the project:
 https://docs.ozone-his.com/create-distro/#available-commands
