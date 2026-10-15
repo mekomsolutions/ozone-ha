@@ -45,7 +45,7 @@
                                 <resource>
                                     <directory>${project.build.directory}/${ozone.artifactId}</directory>
                                     <excludes>
-                                        <exclude>distro/binaries/openmrs/modules/orderexpansion*</exclude>
+                                        <exclude>distro/configs/**/locations/**/locations-core_demo.csv</exclude>
                                     </excludes>
                                 </resource>
                             </resources>
