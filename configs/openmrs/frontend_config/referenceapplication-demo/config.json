@@ -164,11 +164,11 @@
         "answerConceptSetUuid": "340b772e-321f-548e-b07e-cbe69d416c80",
         "customConceptAnswers": [
           {
-            "uuid": "cc344d51-3e7a-527a-9691-3f566f92d9ea",
+            "uuid": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
             "label": "Yes"
           },
           {
-            "uuid": "02c34897-fec5-53a0-9f21-77a4db83885c",
+            "uuid": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
             "label": "No"
           }
         ]
