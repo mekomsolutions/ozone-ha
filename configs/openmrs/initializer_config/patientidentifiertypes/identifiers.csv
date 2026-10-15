@@ -1,0 +1,4 @@
+Uuid,Void/Retire,Name,Description,Required,Format,Format description,Validator,Location behavior,Uniqueness behavior,_order:2000
+53a848e5-1584-54f7-8ad4-c9891d3db67b,,DPI,,FALSE,,,,NOT_USED,NON_UNIQUE,
+4c530dfd-78cd-5cb8-881a-652317a6bcf6,,codigousuario,,TRUE,^[0-9]+$,Enter the numeric internal clinical record number.,,NOT_USED,UNIQUE,
+f60b4e8d-be9e-5345-9ecd-6a9139c3b13c,,NIT,,FALSE,,,,NOT_USED,NON_UNIQUE,
