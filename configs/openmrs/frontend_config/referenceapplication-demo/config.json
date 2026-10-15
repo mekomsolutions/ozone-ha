@@ -254,22 +254,22 @@
         "id": "telefonoavisar",
         "type": "person attribute",
         "uuid": "b1287258-1901-588f-ad03-cfcb8964a6c3",
-        "label": "Emergency phone (8 digits in Guatemala; text allowed)",
+        "label": "Emergency phone (up to 8 digits)",
         "showHeading": false,
         "validation": {
           "required": false,
-          "matches": ""
+          "matches": "^[0-9]{1,8}$"
         }
       },
       {
         "id": "telefono",
         "type": "person attribute",
         "uuid": "14d4f066-15f5-102d-96e4-000c29c2a5d7",
-        "label": "Phone (8 digits in Guatemala; text allowed)",
+        "label": "Phone (up to 8 digits)",
         "showHeading": false,
         "validation": {
           "required": false,
-          "matches": ""
+          "matches": "^[0-9]{1,8}$"
         }
       }
     ],
@@ -302,7 +302,7 @@
         "personAttributeUuid": "14d4f066-15f5-102d-96e4-000c29c2a5d7",
         "validation": {
           "required": false,
-          "matches": ""
+          "matches": "^[0-9]{1,8}$"
         }
       }
     },
@@ -343,8 +343,8 @@
         "Occupation": "Occupation",
         "Person to notify in an emergency": "Person to notify in an emergency",
         "Emergency contact address": "Emergency contact address",
-        "Emergency phone (8 digits in Guatemala; text allowed)": "Emergency phone (8 digits in Guatemala; text allowed)",
-        "Phone (8 digits in Guatemala; text allowed)": "Phone (8 digits in Guatemala; text allowed)",
+        "Emergency phone (up to 8 digits)": "Emergency phone (up to 8 digits)",
+        "Phone (up to 8 digits)": "Phone (up to 8 digits)",
         "Department": "Department",
         "Municipality": "Municipality",
         "Village/Zone": "Village/Zone",
@@ -352,9 +352,9 @@
         "Address/Landmark": "Address/Landmark",
         "DPI": "DPI",
         "NIT": "NIT",
-        "codigousuario (Internal ID)": "codigousuario (Internal ID)",
+        "codigousuario": "codigousuario",
         "Enter the numeric internal clinical record number.": "Enter the numeric internal clinical record number.",
-        "Telephone Number": "Phone (8 digits in Guatemala; text allowed)",
+        "Telephone Number": "Phone (up to 8 digits)",
         "HA Ethnicity": "Ethnicity",
         "HA Marital status": "Marital status",
         "HA IGSS affiliation": "IGSS affiliation",
@@ -365,7 +365,7 @@
         "HA Occupation": "Occupation",
         "HA Emergency contact": "Person to notify in an emergency",
         "HA Emergency contact address": "Emergency contact address",
-        "HA Emergency contact phone": "Emergency phone (8 digits in Guatemala; text allowed)",
+        "HA Emergency contact phone": "Emergency phone (up to 8 digits)",
         "HA Historical registration date": "Historical registration date",
         "HA codigousuario generator": "HA codigousuario generator"
       },
@@ -400,8 +400,8 @@
         "Occupation": "Ocupación",
         "Person to notify in an emergency": "Persona a quien avisar en caso de emergencia",
         "Emergency contact address": "Dirección del contacto de emergencia",
-        "Emergency phone (8 digits in Guatemala; text allowed)": "Teléfono de emergencia (8 dígitos en Guatemala; admite texto)",
-        "Phone (8 digits in Guatemala; text allowed)": "Teléfono (8 dígitos en Guatemala; admite texto)",
+        "Emergency phone (up to 8 digits)": "Teléfono de emergencia (máximo 8 dígitos)",
+        "Phone (up to 8 digits)": "Teléfono (máximo 8 dígitos)",
         "Department": "Departamento",
         "Municipality": "Municipio",
         "Village/Zone": "Aldea/Zona",
@@ -409,9 +409,9 @@
         "Address/Landmark": "Dirección/Referencia",
         "DPI": "DPI",
         "NIT": "NIT",
-        "codigousuario (Internal ID)": "codigousuario (ID interno)",
+        "codigousuario": "codigousuario",
         "Enter the numeric internal clinical record number.": "Ingrese el número numérico del expediente clínico interno.",
-        "Telephone Number": "Teléfono (8 dígitos en Guatemala; admite texto)",
+        "Telephone Number": "Teléfono (máximo 8 dígitos)",
         "HA Ethnicity": "Etnia",
         "HA Marital status": "Estado civil",
         "HA IGSS affiliation": "Afiliación IGSS",
@@ -422,7 +422,7 @@
         "HA Occupation": "Ocupación",
         "HA Emergency contact": "Persona a quien avisar en caso de emergencia",
         "HA Emergency contact address": "Dirección del contacto de emergencia",
-        "HA Emergency contact phone": "Teléfono de emergencia (8 dígitos en Guatemala; admite texto)",
+        "HA Emergency contact phone": "Teléfono de emergencia (máximo 8 dígitos)",
         "HA Historical registration date": "Fecha histórica de registro",
         "HA codigousuario generator": "Generador de números internos de expediente clínico de HA"
       }
