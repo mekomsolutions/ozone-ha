@@ -1,13 +1,4 @@
 {
-  "@openmrs/esm-patient-chart-app": {
-    "extensionSlots": {
-      "action-menu-patient-chart-items-slot": {
-        "order": [
-          "order-basket-action-menu"
-        ]
-      }
-    }
-  },
   "@openmrs/esm-ward-app": {
     "extensionSlots": {
       "action-menu-ward-patient-items-slot": {
