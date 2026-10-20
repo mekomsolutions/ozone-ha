@@ -28,7 +28,7 @@
     "sectionDefinitions": [
       {
         "id": "demographics",
-        "name": "Personal details and identifiers",
+        "name": "Datos personales e identificadores",
         "fields": [
           "name",
           "gender",
@@ -38,7 +38,7 @@
       },
       {
         "id": "ha-demographics",
-        "name": "Additional information",
+        "name": "Información adicional",
         "fields": [
           "etnia",
           "estadocivil",
@@ -49,7 +49,7 @@
       },
       {
         "id": "contact",
-        "name": "Address and phone",
+        "name": "Dirección y teléfono",
         "fields": [
           "address",
           "telefono"
@@ -57,7 +57,7 @@
       },
       {
         "id": "ha-family",
-        "name": "Family information",
+        "name": "Información familiar",
         "fields": [
           "nombreconyugue",
           "nombrepadre",
@@ -66,7 +66,7 @@
       },
       {
         "id": "ha-emergency",
-        "name": "Emergency contact",
+        "name": "Contacto de emergencia",
         "fields": [
           "emergenciaavisara",
           "direccionaviso",
@@ -79,7 +79,7 @@
         "id": "etnia",
         "type": "person attribute",
         "uuid": "4bf737b3-d67b-5dc8-a5f3-48886ad534ba",
-        "label": "Ethnicity",
+        "label": "Etnia",
         "showHeading": false,
         "validation": {
           "required": false,
@@ -105,11 +105,11 @@
           },
           {
             "uuid": "b02003f7-c18c-5d98-aef8-6b155b4a0f8e",
-            "label": "Other"
+            "label": "Otro"
           },
           {
             "uuid": "4f922144-27c1-5315-b79d-b95df7a2bf4e",
-            "label": "None"
+            "label": "Ninguna"
           }
         ]
       },
@@ -117,7 +117,7 @@
         "id": "estadocivil",
         "type": "person attribute",
         "uuid": "87b5867a-4a26-5936-b97f-c68bc2e5cdf0",
-        "label": "Marital status",
+        "label": "Estado civil",
         "showHeading": false,
         "validation": {
           "required": false,
@@ -127,27 +127,27 @@
         "customConceptAnswers": [
           {
             "uuid": "61f082b1-ce75-5697-9701-57df8858a92f",
-            "label": "Married"
+            "label": "Casado/a"
           },
           {
             "uuid": "14c613cc-2772-5c38-86bd-55e61f6bff9c",
-            "label": "Single"
+            "label": "Soltero/a"
           },
           {
             "uuid": "366a31e0-c611-5f85-a24b-81249334201f",
-            "label": "Widowed"
+            "label": "Viudo/a"
           },
           {
             "uuid": "b249a5c4-10cc-59ec-a2ff-2896983d9ed9",
-            "label": "Divorced"
+            "label": "Divorciado/a"
           },
           {
             "uuid": "ef28fc02-51bd-53e7-9d79-79c641c5c695",
-            "label": "Other"
+            "label": "Otro"
           },
           {
             "uuid": "355427c9-7a9e-5613-8f49-e346ca076510",
-            "label": "Domestic partnership"
+            "label": "Unión de hecho"
           }
         ]
       },
@@ -155,7 +155,7 @@
         "id": "igss",
         "type": "person attribute",
         "uuid": "7784c0d3-2573-540a-97f6-b7b0f853019c",
-        "label": "IGSS affiliation",
+        "label": "Afiliación IGSS",
         "showHeading": false,
         "validation": {
           "required": false,
@@ -165,7 +165,7 @@
         "customConceptAnswers": [
           {
             "uuid": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-            "label": "Yes"
+            "label": "Sí"
           },
           {
             "uuid": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
@@ -177,7 +177,7 @@
         "id": "lugarnacimiento",
         "type": "person attribute",
         "uuid": "7b7d0920-cc33-5026-9327-1eea55d683de",
-        "label": "Place of birth",
+        "label": "Lugar de nacimiento",
         "showHeading": false,
         "validation": {
           "required": false,
@@ -188,7 +188,7 @@
         "id": "nombreconyugue",
         "type": "person attribute",
         "uuid": "8dfd1f81-0bd4-590f-b812-0e5bbb1d3c81",
-        "label": "Spouse name",
+        "label": "Nombre del cónyuge",
         "showHeading": false,
         "validation": {
           "required": false,
@@ -199,7 +199,7 @@
         "id": "nombrepadre",
         "type": "person attribute",
         "uuid": "780a00ec-99e1-5617-b32e-2c6a495d546c",
-        "label": "Father name",
+        "label": "Nombre del padre",
         "showHeading": false,
         "validation": {
           "required": false,
@@ -210,7 +210,7 @@
         "id": "nombremadre",
         "type": "person attribute",
         "uuid": "39a7a839-cbd1-5ccb-9eeb-8940ae892f11",
-        "label": "Mother name",
+        "label": "Nombre de la madre",
         "showHeading": false,
         "validation": {
           "required": false,
@@ -221,7 +221,7 @@
         "id": "ocupacion",
         "type": "person attribute",
         "uuid": "7be73909-c41e-5f59-87b7-fe22edb7f003",
-        "label": "Occupation",
+        "label": "Ocupación",
         "showHeading": false,
         "validation": {
           "required": false,
@@ -232,7 +232,7 @@
         "id": "emergenciaavisara",
         "type": "person attribute",
         "uuid": "5986dfc5-f36f-5156-aa4b-fe47076dc230",
-        "label": "Person to notify in an emergency",
+        "label": "Persona a quien avisar en caso de emergencia",
         "showHeading": false,
         "validation": {
           "required": false,
@@ -243,7 +243,7 @@
         "id": "direccionaviso",
         "type": "person attribute",
         "uuid": "ccd1eb18-bdf1-594c-9abe-dc9779f3ac69",
-        "label": "Emergency contact address",
+        "label": "Dirección del contacto de emergencia",
         "showHeading": false,
         "validation": {
           "required": false,
@@ -254,7 +254,7 @@
         "id": "telefonoavisar",
         "type": "person attribute",
         "uuid": "b1287258-1901-588f-ad03-cfcb8964a6c3",
-        "label": "Emergency phone (up to 8 digits)",
+        "label": "Teléfono de emergencia (máximo 8 dígitos)",
         "showHeading": false,
         "validation": {
           "required": false,
@@ -265,7 +265,7 @@
         "id": "telefono",
         "type": "person attribute",
         "uuid": "14d4f066-15f5-102d-96e4-000c29c2a5d7",
-        "label": "Phone (up to 8 digits)",
+        "label": "Teléfono (máximo 8 dígitos)",
         "showHeading": false,
         "validation": {
           "required": false,
@@ -281,11 +281,11 @@
       "gender": [
         {
           "value": "male",
-          "label": "male"
+          "label": "Masculino"
         },
         {
           "value": "female",
-          "label": "female"
+          "label": "Femenino"
         }
       ],
       "dateOfBirth": {
@@ -312,119 +312,12 @@
       "f60b4e8d-be9e-5345-9ecd-6a9139c3b13c"
     ],
     "Translation overrides": {
-      "en": {
-        "demographicsSection": "Personal details and identifiers",
-        "ha-demographicsSection": "Additional information",
-        "contactSection": "Address and phone",
-        "ha-familySection": "Family information",
-        "ha-emergencySection": "Emergency contact",
-        "Ethnicity": "Ethnicity",
-        "Maya": "Maya",
-        "Mestizo/Ladino": "Mestizo/Ladino",
-        "Xinca": "Xinca",
-        "Garífuna": "Garífuna",
-        "Other": "Other",
-        "None": "None",
-        "Marital status": "Marital status",
-        "Married": "Married",
-        "Single": "Single",
-        "Widowed": "Widowed",
-        "Divorced": "Divorced",
-        "Domestic partnership": "Domestic partnership",
-        "IGSS affiliation": "IGSS affiliation",
-        "male": "Male",
-        "female": "Female",
-        "Yes": "Yes",
-        "No": "No",
-        "Place of birth": "Place of birth",
-        "Spouse name": "Spouse name",
-        "Father name": "Father name",
-        "Mother name": "Mother name",
-        "Occupation": "Occupation",
-        "Person to notify in an emergency": "Person to notify in an emergency",
-        "Emergency contact address": "Emergency contact address",
-        "Emergency phone (up to 8 digits)": "Emergency phone (up to 8 digits)",
-        "Phone (up to 8 digits)": "Phone (up to 8 digits)",
-        "Department": "Department",
-        "Municipality": "Municipality",
-        "Village/Zone": "Village/Zone",
-        "Canton/Neighborhood": "Canton/Neighborhood",
-        "Address/Landmark": "Address/Landmark",
-        "DPI": "DPI",
-        "NIT": "NIT",
-        "codigousuario": "codigousuario",
-        "Enter the numeric internal clinical record number.": "Enter the numeric internal clinical record number.",
-        "Telephone Number": "Phone (up to 8 digits)",
-        "HA Ethnicity": "Ethnicity",
-        "HA Marital status": "Marital status",
-        "HA IGSS affiliation": "IGSS affiliation",
-        "HA Place of birth": "Place of birth",
-        "HA Spouse name": "Spouse name",
-        "HA Father name": "Father name",
-        "HA Mother name": "Mother name",
-        "HA Occupation": "Occupation",
-        "HA Emergency contact": "Person to notify in an emergency",
-        "HA Emergency contact address": "Emergency contact address",
-        "HA Emergency contact phone": "Emergency phone (up to 8 digits)",
-        "HA Historical registration date": "Historical registration date",
-        "HA codigousuario generator": "HA codigousuario generator"
-      },
       "es": {
-        "demographicsSection": "Datos personales e identificadores",
-        "ha-demographicsSection": "Información adicional",
-        "contactSection": "Dirección y teléfono",
-        "ha-familySection": "Información familiar",
-        "ha-emergencySection": "Contacto de emergencia",
-        "Ethnicity": "Etnia",
-        "Maya": "Maya",
-        "Mestizo/Ladino": "Mestizo/Ladino",
-        "Xinca": "Xinca",
-        "Garífuna": "Garífuna",
-        "Other": "Otro",
-        "None": "Ninguna",
-        "Marital status": "Estado civil",
-        "Married": "Casado/a",
-        "Single": "Soltero/a",
-        "Widowed": "Viudo/a",
-        "Divorced": "Divorciado/a",
-        "Domestic partnership": "Unión de hecho",
-        "IGSS affiliation": "Afiliación IGSS",
-        "male": "Masculino",
-        "female": "Femenino",
-        "Yes": "Sí",
-        "No": "No",
-        "Place of birth": "Lugar de nacimiento",
-        "Spouse name": "Nombre del cónyuge",
-        "Father name": "Nombre del padre",
-        "Mother name": "Nombre de la madre",
-        "Occupation": "Ocupación",
-        "Person to notify in an emergency": "Persona a quien avisar en caso de emergencia",
-        "Emergency contact address": "Dirección del contacto de emergencia",
-        "Emergency phone (up to 8 digits)": "Teléfono de emergencia (máximo 8 dígitos)",
-        "Phone (up to 8 digits)": "Teléfono (máximo 8 dígitos)",
         "Department": "Departamento",
         "Municipality": "Municipio",
         "Village/Zone": "Aldea/Zona",
         "Canton/Neighborhood": "Cantón/Colonia",
-        "Address/Landmark": "Dirección/Referencia",
-        "DPI": "DPI",
-        "NIT": "NIT",
-        "codigousuario": "codigousuario",
-        "Enter the numeric internal clinical record number.": "Ingrese el número numérico del expediente clínico interno.",
-        "Telephone Number": "Teléfono (máximo 8 dígitos)",
-        "HA Ethnicity": "Etnia",
-        "HA Marital status": "Estado civil",
-        "HA IGSS affiliation": "Afiliación IGSS",
-        "HA Place of birth": "Lugar de nacimiento",
-        "HA Spouse name": "Nombre del cónyuge",
-        "HA Father name": "Nombre del padre",
-        "HA Mother name": "Nombre de la madre",
-        "HA Occupation": "Ocupación",
-        "HA Emergency contact": "Persona a quien avisar en caso de emergencia",
-        "HA Emergency contact address": "Dirección del contacto de emergencia",
-        "HA Emergency contact phone": "Teléfono de emergencia (máximo 8 dígitos)",
-        "HA Historical registration date": "Fecha histórica de registro",
-        "HA codigousuario generator": "Generador de números internos de expediente clínico de HA"
+        "Address/Landmark": "Dirección/Referencia"
       }
     }
   }
