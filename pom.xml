@@ -46,6 +46,7 @@
                                     <directory>${project.build.directory}/${ozone.artifactId}</directory>
                                     <excludes>
                                         <exclude>distro/configs/**/locations/**/locations-core_demo.csv</exclude>
+                                        <exclude>distro/configs/**/queues/**</exclude>
                                     </excludes>
                                 </resource>
                             </resources>
