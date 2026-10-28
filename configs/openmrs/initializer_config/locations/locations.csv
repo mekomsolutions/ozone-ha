@@ -1,0 +1,10 @@
+Uuid,Void/Retire,Name,display:en,display:fr,Description,Tags,Country,State/Province,City/Village,_order:2000
+fadc6cc6-ac2c-5b26-a5fe-ed89f20fad00,,Outpatient,Outpatient,Outpatient,,Login Location;Visit Location;Queue Location;Appointment Location,,,,
+b0b73d44-abd3-5629-83d4-d82a74cd0366,,Emergency,Emergency,Emergency,,Login Location;Visit Location;Queue Location,,,,
+7877fa59-9113-50b0-83bb-206926d1493a,,Inpatient,Inpatient,Inpatient,,Login Location;Visit Location;Admission Location;Transfer Location,,,,
+b158df6e-fac2-5093-90df-898e9f578ae9,,Cerro de oro (Mobile Clinic),Cerro de oro (Mobile Clinic),Cerro de oro (Mobile Clinic),,Login Location;Visit Location;Appointment Location,,,,
+6bc484c2-ed05-52b8-9e40-c7553f7898d0,,Chacaya (Mobile Clinic),Chacaya (Mobile Clinic),Chacaya (Mobile Clinic),,Login Location;Visit Location;Appointment Location,,,,
+31f2d9cf-a9a1-58c7-adf7-91e18fd93e99,,Panabaj (Mobile Clinic),Panabaj (Mobile Clinic),Panabaj (Mobile Clinic),,Login Location;Visit Location;Appointment Location,,,,
+effc8cdc-9fa3-5f1f-8165-1d4d67cbdb55,,Tzanchaj (Mobile Clinic),Tzanchaj (Mobile Clinic),Tzanchaj (Mobile Clinic),,Login Location;Visit Location;Appointment Location,,,,
+0b366b77-23de-5ad5-9cfe-e097db5ab23a,,Olas de Moca (Mobile Clinic),Olas de Moca (Mobile Clinic),Olas de Moca (Mobile Clinic),,Login Location;Visit Location;Appointment Location,,,,
+082d291a-d556-52d0-92b8-c703fd24c346,,Metzabal (Mobile Clinic),Metzabal (Mobile Clinic),Metzabal (Mobile Clinic),,Login Location;Visit Location;Appointment Location,,,,

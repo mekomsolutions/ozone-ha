@@ -1,0 +1,2 @@
+Uuid,Void/Retire,Identifier type,Name,Description,Prefix,Suffix,First identifier base,Min length,Max length,Base character set,_version:1,_order:7000
+3aeb3490-c84b-576e-b2c9-f1b444718960,,4c530dfd-78cd-5cb8-881a-652317a6bcf6,Codigousuario generator,Sequential generator for Codigousuario.,,,1,1,10,123456789,,
