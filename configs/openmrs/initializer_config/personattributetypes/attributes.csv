@@ -9,6 +9,6 @@ Uuid,Void/Retire,Name,display:en,display:es,Description,Format,Foreign uuid,Sear
 39a7a839-cbd1-5ccb-9eeb-8940ae892f11,,Mother name,Mother name,Nombre de la madre,,java.lang.String,,FALSE,
 7be73909-c41e-5f59-87b7-fe22edb7f003,,Occupation,Occupation,Ocupación,,java.lang.String,,FALSE,
 5986dfc5-f36f-5156-aa4b-fe47076dc230,,Emergency contact,Emergency contact,Contacto de emergencia,,java.lang.String,,FALSE,
-ccd1eb18-bdf1-594c-9abe-dc9779f3ac69,,Emergency contact address,Emergency contact address,Dirección del contacto de emergencia,,java.lang.String,,FALSE,
+ccd1eb18-bdf1-594c-9abe-dc9779f3ac69,,Note,Note,Nota,,java.lang.String,,FALSE,
 b1287258-1901-588f-ad03-cfcb8964a6c3,,Emergency contact phone,Emergency contact phone,Teléfono del contacto de emergencia,,java.lang.String,,FALSE,
 1f677fc3-bfe0-5ea6-9fcf-637cf4b19829,,Historical registration date,Historical registration date,Fecha de registro histórico,,java.lang.String,,FALSE,

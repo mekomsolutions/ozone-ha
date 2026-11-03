@@ -60,7 +60,7 @@
         "name": "Emergency contact",
         "fields": [
           "emergenciaavisara",
-          "direccionaviso",
+          "nota",
           "telefonoavisar"
         ]
       }
@@ -169,7 +169,7 @@
         "label": null
       },
       {
-        "id": "direccionaviso",
+        "id": "nota",
         "type": "person attribute",
         "uuid": "ccd1eb18-bdf1-594c-9abe-dc9779f3ac69",
         "showHeading": false,
