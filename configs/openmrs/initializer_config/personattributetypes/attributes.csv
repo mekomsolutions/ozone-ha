@@ -12,3 +12,4 @@ Uuid,Void/Retire,Name,display:en,display:es,Description,Format,Foreign uuid,Sear
 ccd1eb18-bdf1-594c-9abe-dc9779f3ac69,,Note,Note,Nota,,java.lang.String,,FALSE,
 b1287258-1901-588f-ad03-cfcb8964a6c3,,Emergency contact phone,Emergency contact phone,Teléfono del contacto de emergencia,,java.lang.String,,FALSE,
 1f677fc3-bfe0-5ea6-9fcf-637cf4b19829,,Historical registration date,Historical registration date,Fecha de registro histórico,,java.lang.String,,FALSE,
+39a1b8fd-e0ca-562b-bb29-5049402b14ae,,Passport number,Passport number,Número de pasaporte,,java.lang.String,,FALSE,
