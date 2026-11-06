@@ -3,6 +3,12 @@
   <wipe>true</wipe>
   <addressComponents>
     <addressComponent>
+      <field>COUNTRY</field>
+      <nameMapping>Country</nameMapping>
+      <sizeMapping>40</sizeMapping>
+      <requiredInHierarchy>false</requiredInHierarchy>
+    </addressComponent>
+    <addressComponent>
       <field>STATE_PROVINCE</field>
       <nameMapping>Department</nameMapping>
       <sizeMapping>40</sizeMapping>
@@ -35,6 +41,7 @@
   </addressComponents>
   <!-- O3 derives its registration fields from these address template lines. -->
   <lineByLineFormat>
+    <string>country</string>
     <string>stateProvince</string>
     <string>countyDistrict</string>
     <string>cityVillage</string>
