@@ -24,7 +24,8 @@
           "name",
           "gender",
           "dob",
-          "id"
+          "id",
+          "passportnumber"
         ]
       },
       {
@@ -66,6 +67,17 @@
       }
     ],
     "fieldDefinitions": [
+      {
+        "id": "passportnumber",
+        "type": "person attribute",
+        "uuid": "39a1b8fd-e0ca-562b-bb29-5049402b14ae",
+        "showHeading": false,
+        "validation": {
+          "required": false,
+          "matches": ""
+        },
+        "label": null
+      },
       {
         "id": "etnia",
         "type": "person attribute",
@@ -186,7 +198,7 @@
         "showHeading": false,
         "validation": {
           "required": false,
-          "matches": "^[0-9]{1,8}$"
+          "matches": "^[0-9]{10}$"
         },
         "label": null
       },
@@ -197,7 +209,7 @@
         "showHeading": false,
         "validation": {
           "required": false,
-          "matches": "^[0-9]{1,8}$"
+          "matches": "^[0-9]{10}$"
         },
         "label": null
       }
@@ -231,7 +243,7 @@
         "personAttributeUuid": "14d4f066-15f5-102d-96e4-000c29c2a5d7",
         "validation": {
           "required": false,
-          "matches": "^[0-9]{1,8}$"
+          "matches": "^[0-9]{10}$"
         }
       }
     },
@@ -242,6 +254,8 @@
     ],
     "Translation overrides": {
       "es": {
+        "Passport number": "Número de pasaporte",
+        "Country": "Pais",
         "Department": "Departamento",
         "Municipality": "Municipio",
         "Village/Zone": "Aldea/Zona",
@@ -256,11 +270,13 @@
         "female": "Femenino"
       },
       "en": {
+        "Passport number": "Passport number",
         "demographicsSection": "Personal details and identifiers",
         "ha-demographicsSection": "Additional information",
         "contactSection": "Address and phone",
         "ha-familySection": "Family information",
         "ha-emergencySection": "Emergency contact",
+        "Country": "Country",
         "Department": "Department",
         "Municipality": "Municipality",
         "Village/Zone": "Village/Zone",
