@@ -1,4 +1,22 @@
 {
+  "@openmrs/esm-patient-search-app": {
+    "extensionSlots": {
+      "patient-banner-bottom-slot": {
+        "add": [
+          "person-attribute-tag#father-name",
+          "person-attribute-tag#mother-name"
+        ],
+        "configure": {
+          "person-attribute-tag#father-name": {
+            "attributeType": "780a00ec-99e1-5617-b32e-2c6a495d546c"
+          },
+          "person-attribute-tag#mother-name": {
+            "attributeType": "39a7a839-cbd1-5ccb-9eeb-8940ae892f11"
+          }
+        }
+      }
+    }
+  },
   "@openmrs/esm-ward-app": {
     "extensionSlots": {
       "action-menu-ward-patient-items-slot": {
